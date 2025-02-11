@@ -1,4 +1,4 @@
-// pages/api/products.js
+// --pages/api/products.js
 export default function handler(req, res) {
     const products = [
       { id: 1, name: "Producto 1", price: 100 },
