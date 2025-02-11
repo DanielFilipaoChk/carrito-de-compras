@@ -22,3 +22,19 @@ Primero, clona el repositorio en tu máquina local. Abre una terminal y ejecuta 
 
 ```bash
 git clone https://github.com/DanielFilipaoChk/carrito-de-compras.git
+
+
+
+2. Instalar dependencias
+
+Entra en la carpeta del proyecto:
+cd carrito-de-compras
+
+Luego, instala las dependencias necesarias:
+npm install
+
+
+3. Ejecutar el proyecto
+
+Una vez que las dependencias estén instaladas, ejecuta el proyecto en tu servidor local con:
+npm run dev
