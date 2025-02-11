@@ -135,7 +135,7 @@ export default function Page() {
   );
 }
 
-const styles = {
+const styles: { [key: string]: React.CSSProperties } = {
   container: {
     fontFamily: "Arial, sans-serif",
     maxWidth: "900px",
@@ -284,4 +284,3 @@ const styles = {
     fontStyle: "italic",
   },
 };
-
